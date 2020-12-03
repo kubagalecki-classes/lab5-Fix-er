@@ -16,6 +16,6 @@ std::vector< char > foo(std::list< Human >& people)
     char_vector[people.size()-j-1]='y'
       }
   j++;
-}}
+}
     return char_vector;
 }
