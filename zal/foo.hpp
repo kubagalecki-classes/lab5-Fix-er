@@ -12,7 +12,7 @@ std::vector< char > foo(std::list< Human >& people)
   for (std::list<Human>::iterator it = people.begin(); it != people.end(); std::advance(it, 1)) {
   *it.birthday();
   
-  if (*it.isMonster){
+  if (*it.isMonster()){
     char_vector[people.size()-j-1]='y'
       }
   j++;
